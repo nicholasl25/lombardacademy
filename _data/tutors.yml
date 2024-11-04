@@ -29,25 +29,25 @@
   bio: 
 
 - name: Viviana Esquivel
-image: /assets/images/tutors/viviana.jpg
-school: Cornell University
-specialties: 
-bio: 
+  image: /assets/images/tutors/viviana.jpg
+  school: Cornell University
+  specialties: 
+  bio: 
 
 - name: Jeffery Lederman
-image: /assets/images/tutors/jeffery.jpg
-school: Cornell University
-specialties: 
-bio: 
+  image: /assets/images/tutors/jeffery.jpg
+  school: Cornell University
+  specialties: 
+  bio: 
 
 - name: Rowan Hennessy
-image: /assets/images/tutors/rowan.jpg
-school: Cornell University
-specialties: 
-bio:
+  image: /assets/images/tutors/rowan.jpg
+  school: Cornell University
+  specialties: 
+  bio:
 
 - name: Jasper Tripp
-image: /assets/images/tutors/jasper.jpg
-school: Cornell University
-specialties: 
-bio:
+  image: /assets/images/tutors/jasper.jpg
+  school: Cornell University
+  specialties: 
+  bio:
