@@ -130,3 +130,34 @@ footer {
     margin-top: 20px;
     font-size: 0.9rem;
 }
+
+/* About Us page styling */
+.tutors-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tutor-card {
+    width: calc(33.333% - 20px); /* Adjust width based on desired columns */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tutor-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .tutor-card {
+        width: 100%; /* Stack cards on smaller screens */
+    }
+}
