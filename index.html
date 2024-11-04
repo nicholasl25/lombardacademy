@@ -3,30 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lombard Academy</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Lombard Academy</div>
-        <nav>
-            <ul>
-                <li><a href="#" onclick="navigateTo('home')">Home</a></li>
-                <li><a href="#" onclick="navigateTo('about')">About Us</a></li>
-                <li><a href="#" onclick="navigateTo('services')">Services</a></li>
-                <li><a href="#" onclick="navigateTo('contact')">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    {% include header.html %}
     <main id="content">
-        <!-- Dynamic content will load here -->
+        <h2>Welcome to Lombard Academy</h2>
+        <p>Your custom content goes here.</p>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Lombard Academy. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    {% include footer.html %}
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
