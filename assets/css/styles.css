@@ -176,3 +176,22 @@ footer {
         width: 100%; /* Stack cards on smaller screens */
     }
 }
+
+/* Logo styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    object-fit: contain;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}

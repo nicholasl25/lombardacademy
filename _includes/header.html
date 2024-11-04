@@ -1,5 +1,10 @@
 <header>
-    <div class="logo">Lombard Academy</div>
+    <div class="logo-container">
+        <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Lombard Academy Logo" class="logo-image">
+        </a>
+        <span class="site-title">Lombard Academy</span>
+    </div>
     <nav>
         <ul>
             <li><a href="{{ '/' | relative_url }}">Home</a></li>
