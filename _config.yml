@@ -1,9 +1,8 @@
 # Site Settings
 title: "Lombard Academy"
 description: "Personalized tutoring to help students unlock their academic potential."
-baseurl: "" # Leave blank for GitHub Pages root
-url: "https://<your-username>.github.io" # Replace with your GitHub Pages URL
-
+baseurl: "" 
+url: "https://nicholasl25.github.io/lombardacademy.github.io/"
 # Markdown Processing
 markdown: kramdown
 
