@@ -1,5 +1,53 @@
-- name: Sarah Johnson
-  image: /assets/images/tutors/sarah-johnson.jpg
-  school: Harvard University
-  specialties: SAT Prep, AP English, College Essay Writing
-  bio: Sarah has a passion for helping students craft powerful essays and has helped over 50 students get into their dream schools.
+- name: Paul Khoury
+  image: /assets/images/tutors/paul.jpg
+  school: RPI
+  specialties: 
+  bio: 
+
+- name: Colin Elias
+  image: /assets/images/tutors/colin.jpg
+  school: Pomona College
+  specialties: 
+  bio: 
+
+- name: Luca Kalischer-Stork
+  image: /assets/images/tutors/luca.jpg
+  school: Cornell University
+  specialties: 
+  bio: 
+
+- name: Aanjay Patel
+  image: /assets/images/tutors/aanjay.jpg
+  school: Cornell University
+  specialties: 
+  bio: 
+
+- name: Frankie Pappacoda
+  image: /assets/images/tutors/frankie.jpg
+  school: Cornell University
+  specialties: 
+  bio: 
+
+- name: Viviana Esquivel
+image: /assets/images/tutors/viviana.jpg
+school: Cornell University
+specialties: 
+bio: 
+
+- name: Jeffery Lederman
+image: /assets/images/tutors/jeffery.jpg
+school: Cornell University
+specialties: 
+bio: 
+
+- name: Rowan Hennessy
+image: /assets/images/tutors/rowan.jpg
+school: Cornell University
+specialties: 
+bio:
+
+- name: Jasper Tripp
+image: /assets/images/tutors/jasper.jpg
+school: Cornell University
+specialties: 
+bio:

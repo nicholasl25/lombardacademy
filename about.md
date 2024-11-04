@@ -9,6 +9,16 @@ Lombard Academy is based out of beautiful Ithaca, NY, and we pride ourselves on 
 
 Our tutors are not only academically accomplished but are also passionate educators who believe in making learning an enjoyable and fulfilling experience. Whether you’re preparing for college, aiming for top test scores, or strengthening your understanding of complex subjects, our tutors are here to guide you every step of the way.
 
+## Meet the Founder
+
+<div class="founder-profile">
+    <img src="/assets/images/founder.jpg" alt="Photo of the Founder" class="founder-photo">
+    <h3>{{ site.data.founder.name }}</h3>
+    <p><strong>School:</strong> {{ site.data.founder.school }}</p>
+    <p><strong>Specialties:</strong> {{ site.data.founder.specialties }}</p>
+    <p>{{ site.data.founder.bio }}</p>
+</div>
+
 ## Meet the Tutors
 
 Below, you'll find a diverse and talented team of tutors who specialize in a variety of subjects. Each tutor’s background and specialties are listed, along with their educational institution.
