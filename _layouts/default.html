@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}">
+    
+    <!-- Link to CSS file with Jekyll's relative_url filter for compatibility on GitHub Pages -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
+    <!-- Include header once at the top -->
     {% include header.html %}
+
+    <!-- Main content area -->
     <main>
         {{ content }}
     </main>
+
+    <!-- Include footer once at the bottom -->
     {% include footer.html %}
-    <script src="{{ 'assets/js/script.js' | relative_url }}"></script>
+
+    <!-- Link to JavaScript file with Jekyll's relative_url filter for compatibility on GitHub Pages -->
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>
+
