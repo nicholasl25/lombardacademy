@@ -1,53 +1,53 @@
 - name: Paul Khoury
-  image: /assets/images/tutors/paul.jpg
+  image: /assets/images/tutors/paul.jpeg
   school: RPI
   specialties: 
   bio: 
 
 - name: Colin Elias
-  image: /assets/images/tutors/colin.jpg
+  image: /assets/images/tutors/colin.jpeg
   school: Pomona College
   specialties: 
   bio: 
 
 - name: Luca Kalischer-Stork
-  image: /assets/images/tutors/luca.jpg
+  image: /assets/images/tutors/luca.jpeg
   school: Cornell University
   specialties: 
   bio: 
 
 - name: Aanjay Patel
-  image: /assets/images/tutors/aanjay.jpg
+  image: /assets/images/tutors/aanjay.jpeg
   school: Cornell University
   specialties: 
   bio: 
 
 - name: Frankie Pappacoda
-  image: /assets/images/tutors/frankie.jpg
+  image: /assets/images/tutors/frankie.jpeg
   school: Cornell University
   specialties: 
   bio: 
 
 - name: Viviana Esquivel
-  image: /assets/images/tutors/viviana.jpg
+  image: /assets/images/tutors/viviana.jpeg
   school: Cornell University
   specialties: 
   bio: 
 
 - name: Jeffery Lederman
-  image: /assets/images/tutors/jeffery.jpg
+  image: /assets/images/tutors/jeffery.jpeg
   school: Cornell University
   specialties: 
   bio: 
 
 - name: Rowan Hennessy
-  image: /assets/images/tutors/rowan.jpg
+  image: /assets/images/tutors/rowan.jpeg
   school: Cornell University
   specialties: 
   bio:
 
 - name: Jasper Tripp
-  image: /assets/images/tutors/jasper.jpg
+  image: /assets/images/tutors/jasper.jpeg
   school: Cornell University
   specialties: 
   bio:
