@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
     {% include header.html %}
     <main id="content">
         <h2>Welcome to Lombard Academy</h2>
-        <p>Your custom content goes here.</p>
+        <p>Unlock your academic potential with personalized tutoring.</p>
+        <p>Our mission is to empower students with the knowledge and skills they need to succeed.</p>
     </main>
     {% include footer.html %}
-    <script src="assets/js/script.js"></script>
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>

@@ -1,27 +1,31 @@
 /* script.js */
 
+// Function to dynamically load page content based on the selected page
 function navigateTo(page) {
-    let content = document.getElementById('content');
+    const content = document.getElementById('content');
+    content.innerHTML = getPageContent(page) || '<h2>Page not found</h2>';
+}
+
+// Function to return the HTML content for each page
+function getPageContent(page) {
     switch (page) {
         case 'home':
-            content.innerHTML = `
+            return `
                 <h2>Welcome to Lombard Academy</h2>
                 <p>Unlock your academic potential with personalized tutoring.</p>
                 <p>Our mission is to empower students with the knowledge and skills they need to succeed.</p>
             `;
-            break;
         case 'about':
-            content.innerHTML = `
+            return `
                 <h2>About Us</h2>
                 <p>Founded in 2020 during the pandemic, Lombard Academy was created to support students through challenging times.
-                 Our mission is to provide accessible and high-quality tutoring to students of all backgrounds.</p>
-                <p>We offer a wide range of specialized tutors who excel in various subjects,
-                 from high school AP courses and SAT preparation to college-level STEM subjects and beyond.</p>
+                Our mission is to provide accessible and high-quality tutoring to students of all backgrounds.</p>
+                <p>We offer a wide range of specialized tutors who excel in various subjects, from high school AP courses and SAT preparation 
+                to college-level STEM subjects and beyond.</p>
                 <p>Our dedicated tutors tailor their teaching methods to suit each student’s unique learning style, ensuring they gain confidence and achieve their academic goals.</p>
             `;
-            break;
         case 'services':
-            content.innerHTML = `
+            return `
                 <h2>Our Services</h2>
                 <ul>
                     <li>Mathematics Tutoring - Algebra, Geometry, Calculus, and more</li>
@@ -30,9 +34,8 @@ function navigateTo(page) {
                     <li>Test Preparation - SAT, ACT, AP Exams</li>
                 </ul>
             `;
-            break;
         case 'contact':
-            content.innerHTML = `
+            return `
                 <h2>Contact Us</h2>
                 <form onsubmit="submitForm(event)">
                     <label for="name">Name:</label>
@@ -47,19 +50,19 @@ function navigateTo(page) {
                     <button type="submit">Send Message</button>
                 </form>
             `;
-            break;
         default:
-            content.innerHTML = '<h2>Page not found</h2>';
+            return null;
     }
 }
 
-// Load home page content by default
-document.addEventListener('DOMContentLoaded', function () {
+// Event listener to load the home page content by default on page load
+document.addEventListener('DOMContentLoaded', () => {
     navigateTo('home');
 });
 
+// Handle form submission
 function submitForm(event) {
     event.preventDefault();
     alert('Thank you for contacting us!');
-    // Add functionality here to process the form data, such as sending it to an email or database
+    // Additional form processing logic can go here
 }
