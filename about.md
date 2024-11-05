@@ -12,7 +12,7 @@ Our tutors are not only academically accomplished but are also passionate educat
 ## Meet the Founder
 
 <div class="founder-profile">
-    <img src="/assets/images/founder.jpg" alt="Photo of the Founder" class="founder-photo">
+    <img src="{{ site.data.founder.image }}" alt="Photo of the Founder" class="founder-photo">
     <h3>{{ site.data.founder.name }}</h3>
     <p><strong>School:</strong> {{ site.data.founder.school }}</p>
     <p><strong>Specialties:</strong> {{ site.data.founder.specialties }}</p>

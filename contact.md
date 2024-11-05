@@ -28,7 +28,7 @@ Please fill out the form below to contact Lombard Academy. We look forward to he
 Stay updated with our latest news and tips on our Instagram page:
 
 <a href="https://www.instagram.com/lombard.academy/" target="_blank" class="social-link">
-    <img src="/assets/images/insta.png" alt="Instagram Logo" class="social-icon">
+    <img src="{{ site.baseurl }}/assets/images/insta.png" alt="Instagram Logo" class="social-icon">
     Follow Lombard Academy on Instagram
 </a>
 
