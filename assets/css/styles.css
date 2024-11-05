@@ -195,3 +195,73 @@ footer {
     color: #333;
     font-weight: 600;
 }
+
+/* Additional spacing between sections */
+.section-space {
+    margin-top: 30px;
+}
+
+/* Form Styling (optional adjustment for better spacing) */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+
+/* Social Link Styling */
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #555;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Resource Link Styling */
+.resource-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+
+.resource-link:hover {
+    color: #555;
+}
+
+.resource-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Enhanced link styling */
+a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+a:hover {
+    color: #555;
+    border-color: #555;
+}
+
