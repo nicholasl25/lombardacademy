@@ -28,7 +28,7 @@ Please fill out the form below to contact Lombard Academy. We look forward to he
 Stay updated with our latest news and tips on our Instagram page:
 
 <a href="https://www.instagram.com/lombard.academy/" target="_blank" class="social-link">
-    <img src="/assets/images/instagram.png" alt="Instagram Logo" class="social-icon">
+    <img src="/assets/images/insta.png" alt="Instagram Logo" class="social-icon">
     Follow Lombard Academy on Instagram
 </a>
 
@@ -41,7 +41,7 @@ Explore these educational resources:
 
 <a href="https://www.synopto.xyz" target="_blank" class="resource-link">
     <img src="/assets/images/synopto.png" alt="Synopto Logo" class="resource-icon">
-    Synopto
+    Synopto (Recommended for iPhone)
 </a>
 
 <a href="https://khanacademy.org" target="_blank" class="resource-link">
