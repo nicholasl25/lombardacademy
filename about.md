@@ -13,11 +13,14 @@ Our tutors are not only academically accomplished but are also passionate educat
 
 <div class="founder-profile">
     <img src="{{ site.data.founder.image }}" alt="Photo of the Founder" class="founder-photo">
-    <h3>{{ site.data.founder.name }}</h3>
-    <p><strong>School:</strong> {{ site.data.founder.school }}</p>
-    <p><strong>Specialties:</strong> {{ site.data.founder.specialties }}</p>
-    <p>{{ site.data.founder.bio }}</p>
+    <div class="founder-info">
+        <h3 class="founder-name">{{ site.data.founder.name }}</h3>
+        <p class="founder-detail"><strong>School:</strong> {{ site.data.founder.school }}</p>
+        <p class="founder-detail"><strong>Specialties:</strong> {{ site.data.founder.specialties }}</p>
+        <p class="founder-bio">{{ site.data.founder.bio }}</p>
+    </div>
 </div>
+
 
 ## Meet the Tutors
 
