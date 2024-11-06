@@ -1,7 +1,7 @@
-- name: Nicholas Lombardo
-  school: Cornell University
-  specialties: AP Calculus, SAT Math, College Admissions Coaching
-  bio: >
-   Nicholas founded Lombard Academy in 2020 to provide high-quality tutoring and guidance to students aiming for top college admissions and scores.
-   With over five years of experience in tutoring, Nicholas has over 50 students achieve their academic and career goals.
-  image: /assets/images/founder.jpeg
+name: Nicholas Lombardo
+school: Cornell University
+specialties: AP Calculus, SAT Math, College Admissions Coaching
+bio: >
+  Nicholas founded Lombard Academy in 2020 to provide high-quality tutoring and guidance to students aiming for top college admissions and scores.
+  With over five years of experience in tutoring, Nicholas has over 50 students achieve their academic and career goals.
+image: /assets/images/founder.jpeg
