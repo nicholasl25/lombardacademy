@@ -349,7 +349,12 @@ footer a:hover {
     display: none;
 }
 
-/* Show the menu button only on smaller screens */
+/* Hide the menu toggle button on larger screens */
+#menu-toggle {
+    display: none;
+}
+
+/* Default: Hide navigation links on mobile */
 @media (max-width: 768px) {
     #menu-toggle {
         display: block;
@@ -362,7 +367,7 @@ footer a:hover {
         font-size: 1rem;
     }
 
-    /* Hide the navigation menu by default on mobile */
+    /* Hide navigation menu by default on mobile */
     nav ul {
         display: none;
         flex-direction: column;
@@ -371,9 +376,10 @@ footer a:hover {
         padding: 20px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
+        margin-top: 10px;
     }
 
-    /* Show the navigation menu when the 'visible' class is added */
+    /* Display navigation menu when 'visible' class is added */
     nav ul.visible {
         display: flex;
     }
