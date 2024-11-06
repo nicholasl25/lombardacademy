@@ -39,12 +39,16 @@ Stay updated with our latest news and tips on our Instagram page:
 
 Explore these educational resources:
 
-<a href="https://www.synopto.xyz" target="_blank" class="resource-link">
-    <img src="{{ site.baseurl }}/assets/images/synopto.png" alt="Synopto Logo" class="resource-icon">
-    Synopto (Recommended for iPhone)
-</a>
+<div class="resource-item">
+    <img src="assets/images/synopto.png" alt="Synopto Logo" class="resource-icon">
+    <a href="https://www.synopto.xyz" target="_blank" class="resource-link">
+        Synopto (Recommended for iPhone)
+    </a>
+</div>
 
-<a href="https://khanacademy.org" target="_blank" class="resource-link">
-    <img src="{{ site.baseurl }}/assets/images/khan.png" alt="Khan Academy Logo" class="resource-icon">
-    Khan Academy
-</a>
+<div class="resource-item">
+    <img src="/assets/images/khan.png" alt="Khan Academy Logo" class="resource-icon">
+    <a href="https://khanacademy.org" target="_blank" class="resource-link">
+        Khan Academy
+    </a>
+</div>
