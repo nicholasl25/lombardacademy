@@ -60,9 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
     navigateTo('home');
 });
 
-// Handle form submission
-function submitForm(event) {
-    event.preventDefault();
-    alert('Thank you for contacting us!');
-    // Additional form processing logic can go here
+
+function toggleMenu() {
+    const nav = document.querySelector('header nav ul');
+    nav.classList.toggle('visible');
 }
