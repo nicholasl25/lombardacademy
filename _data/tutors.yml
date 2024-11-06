@@ -1,53 +1,53 @@
 - name: Paul Khoury
-  image: /assets/images/tutors/paul.jpeg
+  image: /assets/images/tutors/paul2.jpeg
   school: RPI
-  specialties: 
+  specialties: Engineering, Phyiscs, Math, and CAD
   bio: 
 
 - name: Colin Elias
   image: /assets/images/tutors/colin.jpeg
   school: Pomona College
-  specialties: 
+  specialties: Math, Physics, and Foreign Languages
   bio: 
 
 - name: Luca Kalischer-Stork
   image: /assets/images/tutors/luca.jpeg
   school: Cornell University
-  specialties: 
+  specialties: Test Prep and College Admissions
   bio: 
 
 - name: Aanjay Patel
   image: /assets/images/tutors/aanjay.jpeg
   school: Cornell University
-  specialties: 
+  specialties: Financial Accouting and SAT Prep
   bio: 
 
 - name: Frankie Pappacoda
   image: /assets/images/tutors/frankie.jpeg
   school: Cornell University
-  specialties: 
+  specialties: ELA, Math, and Early Childhood Subjects
   bio: 
 
 - name: Viviana Esquivel
   image: /assets/images/tutors/viviana.jpeg
   school: Cornell University
-  specialties: 
+  specialties: STEM and Biology
   bio: 
 
 - name: Jeffery Lederman
   image: /assets/images/tutors/jeffrey.jpeg
   school: Cornell University
-  specialties: 
+  specialties: Math, Physics, and Biology
   bio: 
 
 - name: Rowan Hennessy
   image: /assets/images/tutors/rowan.jpeg
   school: Cornell University
-  specialties: 
+  specialties: Math and Computer Science
   bio:
 
 - name: Jasper Tripp
   image: /assets/images/tutors/jasper.jpeg
   school: Cornell University
-  specialties: 
-  bio:
+  specialties: Calculus and Linear Algebra
+  bio: 
