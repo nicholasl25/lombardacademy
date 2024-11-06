@@ -254,7 +254,7 @@ footer {
 /* Founder Profile Styling */
 .founder-profile {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     padding: 20px;
     background-color: #ffffff;
@@ -262,11 +262,13 @@ footer {
     border: 1px solid #e0e0e0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     margin-bottom: 40px;
+    max-width: 100%; /* Allow more space for content */
+    flex-wrap: wrap; /* Allows stacking on smaller screens */
 }
 
 .founder-photo {
-    width: 120px;
-    height: 120px;
+    width: 100px; /* Adjust size to provide more room for text */
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
@@ -276,16 +278,37 @@ footer {
     font-size: 1.8rem;
     color: #333;
     margin-bottom: 8px;
+    flex-basis: 100%; /* Allows header to span full width if needed */
 }
 
 .founder-profile p {
     font-size: 1rem;
     color: #555;
-    margin: 5px 0;
     line-height: 1.5;
+    max-width: 600px; /* Limit width for better readability */
 }
 
-.founder-profile p strong {
-    color: #333;
-}
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    .founder-profile {
+        flex-direction: column; /* Stack image and text on smaller screens */
+        align-items: center;
+        text-align: center;
+    }
 
+    .founder-photo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .founder-profile h3 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .founder-profile p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
