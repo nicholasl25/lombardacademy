@@ -1,2 +1,2 @@
-# lombardacademy.github.io
+# lombardacademy
 Lombard Academy Tutoring Website
