@@ -20,7 +20,7 @@ exclude:
 
 # Configuration for Jekyll Themes (Optional)
 # Uncomment if you want to use a Jekyll theme, like Minima
-# theme: minima
+theme: minima
 
 # Build Settings
 future: true
