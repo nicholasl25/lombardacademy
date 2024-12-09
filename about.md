@@ -26,7 +26,7 @@ Our tutors are not only academically accomplished but are also passionate educat
 <div class="tutors-grid">
     {% for member in site.data.team %}
     <div class="tutor-card">
-        <img src="{{ tutor.image | relative_url }}" alt="Photo of {{ member.name }}" class="member-photo">
+        <img src="{{ member.image | relative_url }}" alt="Photo of {{ member.name }}" class="member-photo">
         <h3>{{ member.name }}</h3>
         <p><strong>School:</strong> {{ member.school }}</p>
         <p><strong>Role:</strong> {{ member.specialties }}</p>
