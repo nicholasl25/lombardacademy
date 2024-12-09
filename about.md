@@ -21,10 +21,23 @@ Our tutors are not only academically accomplished but are also passionate educat
     </div>
 </div>
 
+## Meet the Team
+
+<div class="tutors-grid">
+    {% for member in site.data.team %}
+    <div class="tutor-card">
+        <img src="{{ tutor.image | relative_url }}" alt="Photo of {{ member.name }}" class="member-photo">
+        <h3>{{ member.name }}</h3>
+        <p><strong>School:</strong> {{ member.school }}</p>
+        <p><strong>Role:</strong> {{ member.specialties }}</p>
+        <p>{{ member.bio }}</p>
+    </div>
+    {% endfor %}
+</div>
 
 ## Meet the Tutors
 
-Below, you'll find a diverse and talented team of tutors who specialize in a variety of subjects. Each tutor’s background and specialties are listed, along with their educational institution.
+Below, you'll find our talented team of tutors who specialize in a variety of subjects. Each tutor’s background and specialties are listed, along with their educational institution.
 
 <div class="tutors-grid">
     {% for tutor in site.data.tutors %}
