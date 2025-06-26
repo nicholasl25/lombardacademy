@@ -1,8 +1,8 @@
 # Site Settings
 title: "Lombard Academy"
 description: "Personalized tutoring to help students unlock their academic potential."
-baseurl: "/lombardacademy" 
-url: "https://nicholasl25.github.io/lombardacademy/"
+baseurl: 
+url: "https://lombardacademy.xyz"
 # Markdown Processing
 markdown: kramdown
 
